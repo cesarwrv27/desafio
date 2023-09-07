@@ -21,3 +21,18 @@ if __name__=="__main__":
     resultado = convertir_temperatura(valor, unidad_origen, unidad_destino)
     print(f"{valor} de grados {unidad_origen} son equivalentes {resultado} grados {unidad_destino} ")
 
+
+if __name__=="__main__":
+    valor = float(input("ingrese los kilogramos : "))
+    unidad_origen = "kilogramos"
+    unidad_destino = "gramos"
+    resultado = convertir_masa(valor, unidad_origen, unidad_destino)
+    print(f"{valor} kilogramos {unidad_origen} son equivalentes {resultado} gramos {unidad_destino} ")
+
+
+if __name__=="__main__":
+    valor = float(input("ingrese los segundos : "))
+    unidad_origen = "segundos"
+    unidad_destino = "minutos"
+    resultado = convertir_tiempo(valor, unidad_origen, unidad_destino)
+    print(f"{valor} segundos {unidad_origen} son equivalentes {resultado} minutos {unidad_destino} ")
