@@ -7,7 +7,7 @@ def gramos_a_kilogramos(gramos):
 if __name__=="__main__":
     kilogramos = 2.5 
     gramos = kilogramos_a_gramos(kilogramos)
-    print(f"{kilogramos } kilogramos equivalen a{gramos} gramos")
+    print(f"{kilogramos } kilogramos equivalen a {gramos} gramos")
     
     # /// Imprimir farenheit ///
-    print(f"{gramos} gramos equivalen a{kilogramos} kilogramos")
+    print(f"{gramos} gramos equivalen a {kilogramos} kilogramos")
